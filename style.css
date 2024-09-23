@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(186, 115, 204) ;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    position: relative;
+    top: -20px;
+}
+.container{
+    width: 400px;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(230, 156, 230);
+    margin-top: 5px;
+    border-radius: 7px;
+}
+input{
+    width: 270px;
+    padding: 8px;
+    border: 1px solid black;
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 35px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    border: 2px;
+    background-color: rgb(100, 47, 150);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.text ul{
+    position: relative;
+    height: 30px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color:rgb(173, 110, 173);
+    text-align:left;
+    font-size: 19px;
+    padding: 2px;
+    
+}
+.text ul button{
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 32px;
+}
+.text ul button:hover{
+        border: 2px;
+        background-color: rgb(100, 47, 150);
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.text ul:hover{
+    border:2px;
+    background-color: rgb(254, 201, 254);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
